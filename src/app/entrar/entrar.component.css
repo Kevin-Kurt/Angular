@@ -9,3 +9,7 @@
 button{
     margin-top: 10px;
 }
+.sair{
+    position: flex;
+    left: 30em;
+}
