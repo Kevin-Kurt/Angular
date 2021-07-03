@@ -22,6 +22,12 @@ return this.http.post<User>('https://backendthiagofaccipieri.herokuapp.com/usuar
 
   }
 
-  
+  logado(){
+    let ok: boolean = false
+    if(environment.token != ''){
+      ok = true
+    }
+    return ok
+  }
 
 }

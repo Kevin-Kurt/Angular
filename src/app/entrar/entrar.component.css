@@ -9,3 +9,14 @@
 button{
     margin-top: 10px;
 }
+#img-bg{
+    background-image: url('../../assets/img/escritorio.webp');
+
+    min-height: 695px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    margin-top: 10px;
+}
